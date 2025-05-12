@@ -1,5 +1,4 @@
-import firstProject from '../assets/one.png';
-import secondProject from '../assets/one.png';
+
 
 function Projects() {
   return (
@@ -12,7 +11,7 @@ function Projects() {
         {/* Project 1 */}
         <div className="cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
-            src={firstProject}
+            src="/assets/one.png"
             alt="Project 1"
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
           />
@@ -29,7 +28,7 @@ function Projects() {
         {/* Project 2 */}
         <div className=" cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
-            src={secondProject}
+            src='/assets/one.png'
             alt="Project 2"
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
           />
