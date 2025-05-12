@@ -1,5 +1,5 @@
-import firstProject from '../assets/1.png';
-import secondProject from '../assets/2.jpg';
+import firstProject from '../assets/one.png';
+import secondProject from '../assets/two.jpg';
 
 function Projects() {
   return (
