@@ -1,5 +1,4 @@
-import Lottie from "lottie-react";
-import animation from "../../public/assets/rocket.json";
+
 import { motion } from "framer-motion";
 import Intro from "./animatedText";
 import Earth from "./earth";
@@ -38,7 +37,6 @@ function Home() {
             implementing, testing, and maintaining innovative software
             solutions.
           </div>
-          {/* <Lottie animationData={animation} className="w-full lg:h-[50vh] mt-10 pr-[40px] " /> */}
 
         </div>
         <div className="h-[50vh] lg:h-[40vh] w-full ml-[30px]">

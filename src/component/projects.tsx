@@ -1,5 +1,3 @@
-
-
 function Projects() {
   return (
     <div className="bg-[url('/assets/third.jpg')] bg-cover overflow-hidden w-full py-20">
@@ -9,7 +7,7 @@ function Projects() {
 
       <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-10">
         {/* Project 1 */}
-        <div className="cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+        <div className="cursor-pointer relative group w-[350px] h-[400px] lg:w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
             src="/assets/one.png"
             alt="Project 1"
@@ -26,9 +24,9 @@ function Projects() {
         </div>
 
         {/* Project 2 */}
-        <div className=" cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+        <div className=" cursor-pointer relative group w-[350px] h-[400px] lg:w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
-            src='/assets/two.jpg'
+            src="/assets/two.jpg"
             alt="Project 2"
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
           />
