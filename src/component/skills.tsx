@@ -14,7 +14,7 @@ const skillImages = [
 
 function Skills() {
   return (
-    <div className="bg-secImg bg-cover overflow-hidden w-full">
+    <div className="bg-[url('/assets/second.jpg')] bg-cover overflow-hidden w-full">
       <div className="rounded-2xl bg-customeBg w-[85%] h-[70vh] mb-10 mx-auto shadow-2xl p-8 flex flex-col">
         <div className="text-white text-5xl mb-6 text-center">My Skills</div>
 

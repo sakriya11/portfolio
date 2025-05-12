@@ -5,7 +5,7 @@ import Intro from "./animatedText";
 import Earth from "./earth";
 function Home() {
   return (
-    <div className="bg-img bg-cover overflow-hidden  w-full">
+    <div className="bg-[url('/assets/bg.jpg')] bg-cover overflow-hidden  w-full">
       <div className="flex justify-end items-center h-20 px-20 ">
         <div className="flex text-white font-bold">
           <div className="mx-5 hover:text-blue-400 transition-colors duration-200">
