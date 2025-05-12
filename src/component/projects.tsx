@@ -28,7 +28,7 @@ function Projects() {
         {/* Project 2 */}
         <div className=" cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
-            src='/assets/one.png'
+            src='/assets/two.jpg'
             alt="Project 2"
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
           />
