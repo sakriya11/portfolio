@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        img: "url('src/assets/bg.jpg')",
-        secImg: "url('src/assets/second.jpg')",
-        thirdImg: "url('src/assets/third.jpg')",
+        img: "url('./assets/bg.jpg')",
+        secImg: "url('./assets/second.jpg')",
+        thirdImg: "url('./assets/third.jpg')",
       },
       colors: {
         customeBg: "#202329",

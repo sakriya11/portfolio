@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animation from "../assets/rocket.json";
+import animation from "../../assets/rocket.json";
 import { motion } from "framer-motion";
 import Intro from "./animatedText";
 import Earth from "./earth";
