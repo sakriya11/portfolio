@@ -1,3 +1,6 @@
+import firstProject from '../assets/1.png';
+import secondProject from '../assets/2.jpg';
+
 function Projects() {
   return (
     <div className="bg-[url('/assets/third.jpg')] bg-cover overflow-hidden w-full py-20">
@@ -9,7 +12,7 @@ function Projects() {
         {/* Project 1 */}
         <div className="cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
-            src="src/assets/1.png"
+            src={firstProject}
             alt="Project 1"
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
           />
@@ -26,7 +29,7 @@ function Projects() {
         {/* Project 2 */}
         <div className=" cursor-pointer relative group w-[600px] h-[500px] bg-gray-800 rounded-xl overflow-hidden shadow-lg">
           <img
-            src="src/assets/2.jpg"
+            src={secondProject}
             alt="Project 2"
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95"
           />

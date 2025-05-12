@@ -1,15 +1,24 @@
 import { motion } from "framer-motion";
 
-const skillImages = [
-  { src: "src/assets/mongo.png", alt: "MongoDB" },
-  { src: "src/assets/react.jpg", alt: "React" },
-  { src: "src/assets/node.png", alt: "Node.js" },
-  { src: "src/assets/my.png", alt: "mysql" },
+// Import images
+import mongoImg from '../assets/mongo.png';
+import reactImg from '../assets/react.jpg';
+import nodeImg from '../assets/node.png';
+import mysqlImg from '../assets/my.png';
+import jsImg from '../assets/js.jpg';
+import tsImg from '../assets/ts.png';
+import githubImg from '../assets/github.png';
+import gitlabImg from '../assets/gitlab.jpg';
 
-  { src: "src/assets/js.jpg", alt: "JavaScript" },
-  { src: "src/assets/ts.png", alt: "TypeScript" },
-  { src: "src/assets/github.png", alt: "github" },
-  { src: "src/assets/gitlab.jpg", alt: "gitlab" },
+const skillImages = [
+  { src: mongoImg, alt: "MongoDB" },
+  { src: reactImg, alt: "React" },
+  { src: nodeImg, alt: "Node.js" },
+  { src: mysqlImg, alt: "MySQL" },
+  { src: jsImg, alt: "JavaScript" },
+  { src: tsImg, alt: "TypeScript" },
+  { src: githubImg, alt: "GitHub" },
+  { src: gitlabImg, alt: "GitLab" },
 ];
 
 function Skills() {
@@ -27,9 +36,9 @@ function Skills() {
             transition={{ duration: 1 }}
           >
             {skillImages.map((skill, i) => (
-              <div key={i} className="flex items-center justify-center ">
+              <div key={i} className="flex items-center justify-center">
                 <img
-                  src={skill.src}
+                  src={skill.src}  // Now using the imported image
                   alt={skill.alt}
                   className="w-[32%] h-auto"
                 />
