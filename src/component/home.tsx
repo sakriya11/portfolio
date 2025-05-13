@@ -9,9 +9,9 @@ function Home() {
       id="home"
     >
       {/* Navigation */}
-      <div className="flex justify-end items-center h-20 px-20">
-        <div className="flex text-white font-bold">
-          <div className="mx-5 hover:text-blue-400 transition-colors duration-200">
+      <div className="flex justify-end items-center  h-20 px-20">
+        <div className="flex  text-white font-bold">
+          <div className="mx-5  hover:text-blue-400 transition-colors duration-200">
             <a href="#home">Home</a>
           </div>
           <div className="mx-5 hover:text-blue-400 transition-colors duration-200">
@@ -25,7 +25,7 @@ function Home() {
           </div>
         </div>
         <button
-          className="lg:relative w-[150px] h-[50px] border border-white rounded-[10px] overflow-hidden group transition-all duration-500 z-[1]"
+          className="hidden lg:block relative w-[150px] h-[50px] border border-white rounded-[10px] overflow-hidden group transition-all duration-500 z-[1]"
           onClick={() =>
             window.open("https://www.linkedin.com/in/sakriya-khadka-74b9432b1/")
           }
