@@ -5,7 +5,7 @@ import Contact from "./component/contact";
 import Footer from "./component/footer";
 function App() {
   return (
-    <div className="h-screen overflow-y-scroll scrollbar-hide overflow-hidden scroll-smooth" >  
+    <div className="h-screen overflow-y-scroll scrollbar-hide overflow-x-hidden scroll-smooth" >  
       <section id="home">
         <Home />
       </section>
