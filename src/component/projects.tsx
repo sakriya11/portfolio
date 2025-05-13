@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div className="bg-[url('/assets/third.jpg')] bg-cover overflow-hidden w-full py-20">
+    <div className="bg-[url('/assets/third.jpg')] bg-cover overflow-hidden w-full py-20 ">
       <div className="text-center text-white text-5xl font-bold mb-12">
         Projects
       </div>

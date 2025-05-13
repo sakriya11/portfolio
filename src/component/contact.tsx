@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import animation from "../assets/rocket.json";
 function Contact() {
   return (
-    <div className="bg-[url('/assets/four.jpg')] bg-cover w-full py-10 px-4">
+    <div className="bg-[url('/assets/four.jpg')] bg-cover w-full py-10 px-4 ">
       <div className="text-white text-5xl mb-10 text-center">Get in touch</div>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
